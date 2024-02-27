@@ -7,7 +7,7 @@ public class Usuario {
 
     private Long id;
 
-    private String nobmre;
+    private String nombre;
     private String apellido;
     private String email;
     private String telefono;
@@ -24,12 +24,12 @@ public class Usuario {
     }
 
 
-    public String getNobmre() {
-        return nobmre;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNobmre(String nobmre) {
-        this.nobmre = nobmre;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getApellido() {
